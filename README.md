@@ -26,7 +26,7 @@ An end-to-end Machine Learning pipeline designed to detect fraudulent credit car
 1. **Data Preprocessing:** Utilized `RobustScaler` to scale `Amount` and `Time`, ensuring resilience against extreme outliers.
 2. **Train-Test Split:** Performed a stratified split ($80/20$) *before* resampling to prevent data leakage and preserve real-world class distributions.
 3. **Handling Class Imbalance:** Applied **SMOTE** (Synthetic Minority Over-sampling Technique) exclusively on the training set to balance minority classes.
-4. **Model Training:** Trained a robust **Random Forest Classifier** ($100$ estimators, $\text{max\_depth}=10$).
+4. **Model Training:** Trained a robust **Random Forest Classifier** (100 estimators, `max_depth=10`).
 
 ---
 
